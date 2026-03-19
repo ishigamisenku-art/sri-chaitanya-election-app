@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://127.0.0.1:8000'
+const API = 'https://sri-chaitanya-election-app-production.up.railway.app'
+```
+
+Press **Ctrl + S** to save, then run in Command Prompt:
+```
+cd C:\Users\ishig\voting-app
+git add .
+git commit -m "Update API URL to Railway"
+git push
 
 const HOUSE_COLORS = {
   Vikings:  { bg: '#ede9fe', border: '#7c3aed', text: '#4c1d95', icon: '⚔️' },
